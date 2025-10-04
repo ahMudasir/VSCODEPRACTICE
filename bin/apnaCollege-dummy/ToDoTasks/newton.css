@@ -1,0 +1,13 @@
+td{
+    padding: 4px; 
+    background-color: aliceblue;
+    border: 2px solid black;
+
+}
+thead{
+    font-size: large;
+    color: blueviolet;
+    font-weight: 200;
+    padding: 5px;
+    
+}

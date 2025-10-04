@@ -1,0 +1,80 @@
+Git and GitHub
+--------------------------------
+Versioin control system is a tool that helps to track changes in code 
+git is a version control system. It is a popular, free and open source , fast and scalable.
+
+Create a new repository : apnacollege-demo
+Make our first commit 
+-----------------------------------------------------------------------------------------------
+Install Git 
+configure Git:
+-----------------------------------------------------------------------------------------------
+git config--global user.name "myname"
+git config--global user.mail "mail id"
+git config--list
+---------------------------------------------------------------------------------------------------
+Basic commands of git
+Clone: cloning a repository on our local machine
+git clone <somelink>
+
+CD commands
+-------------------------------------------------------------
+use cd: change directory or path 
+and use ls: lists
+make a folder use 
+mkdir <folder name>
+change folder use 
+cd ./folder name
+cd .. <back to original folder>
+
+--------------------------------------------------------------------
+status: Display the status of code
+git status
+
+untracked: new files that git does not yet track
+modified: changed
+staged: file is redy to be commited
+unmodified: unchanged
+
+Add and commit
+------------------------------------------------------------------------------------------------------
+Add: adds mew or changed files in your working directory to the git staging area
+git add<file name>
+or git add .   add all the files in one go.
+
+Commit: it is the record of change
+git commit -m "some message"
+-----------------------------------------------------------------------------------------------------
+Git Push Command
+git push -u origin main or git push origin main:   add local repository to remote repository
+--------------------------------------------------------------------------------------------------------
+
+Init Command
+ 
+ init - used to create a new git repository
+
+ git init
+ git remote add origin link
+ git remote -v
+ git branch
+ git branch -M main (ro rename branch)
+ git push origin main
+ ---------------------------------------------------------------------------------------------------------
+ 
+ Git Branches
+-------------------------------------------------------------
+
+Branch Commands:
+
+git branch (to check branch)
+git branch -M main (to rename branch)
+git checkout "branchName" (to navigate)
+git checkout -b <new branchName> (create new branch)
+git branch -d <branchName>  (delte branch name)
+------------------------------------------------------------------
+Pull command: used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
+git pull origin main
+------------------------------------------------------------------
+
+

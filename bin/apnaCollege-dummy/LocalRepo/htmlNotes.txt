@@ -1,0 +1,87 @@
+We use . before the file like "./path_folder_name" and "../path_folder_name"
+
+-------------------------------------------------------------------------------------------
+
+TYPES of Css Styles:
+Internal: we use css internally to the html tags <style> CSS </style>
+Inline: we use the css line by by line
+External: Use the external link like <link rel="stylesheet" href="file of css"
+-------------------------------------------------------------------------------------------
+SELECTORS IN HTML:
+
+Element Selector:
+h1,p, h3, 
+
+ID Selector:
+#hello
+
+Class Selector:
+.hello
+----------------------------------------------------------------------------------------------
+CSS Styles:
+
+these are also called as psedo class with single : 
+Hover : a: hover{color}
+Visited: a: Visited{color}
+link a: link{color}
+active a: active{color}
+
+list-style-image we can use the url of the image    
+list-style-type this is also an element used
+-----------------------------------------------------------------------------------------------------
+Pseudo elements:
+represented with ::
+ like :: before, ::after
+-----------------------------------------------------------------------------------------------------
+ CSS Fonts :
+
+ -Font family
+ font-family: Courier New, Monospace; browser will use of Monospace instead of Courier New not support by browser
+ px, rem, em, %
+ font-size
+ font-varient
+ Font-weight
+-------------------------------------------------------------------------------------------------------
+ overflow-
+ visible
+ auto - it will enable scroll only when it is required
+ scroll- it will always enable scroll part
+ hidden- it will hide the extra part
+
+ overflow -x and overflow-y
+
+overflow-x ebalbes x axis by using scroll
+overflow-y enables y axis by using scroll
+
+-------------------------------------------------------------------------------------------------------
+CSS Fonts family
+
+ -Serif(small storkes like times roman)
+ -san Serif(Normal fonts/No styling)
+ -Monospace(each character takes the same width like Courier New)
+ -Cursive( stylish font)
+ -Fantasy(eg. copperplate )
+
+---------------------------------------------------------------------------------------------------------
+ CSS Positions 
+
+ -Static :  its by default in nature every( html tag follows static positioning)
+ -relative : Position the element relatively
+ use top, bottom, right, left
+ -absolute
+ -fixed: Fixed it means to fix something which not move while scroll 
+ -sticky: The position will be fixed not movable 
+---------------------------------------------------------------------------------------------------------
+CSS Float and CSS Clear
+
+Float : it floats the element on the webpage
+float: left/inherit/none/right
+
+Clear is used to go to the next line
+clear: left/right etc
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
