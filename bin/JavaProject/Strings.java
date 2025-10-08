@@ -6,7 +6,7 @@
             public static void reverse(String n){
                 String rev ="";
                 for (int i = n.length()-1; i >= 0; i--) {
-                    rev += rev.charAt(i);
+                  rev += n.charAt(i);
                 }
                 System.out.print(rev);
             }
@@ -16,7 +16,6 @@
                  They are immutable cant change once created
                 */ 
                 Scanner sc = new Scanner(System.in);
-
                 System.out.println("Enter String");
                 String n = sc.nextLine();
                 reverse(n);
